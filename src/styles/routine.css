@@ -1,0 +1,92 @@
+.routine{
+    width:100%;
+    padding:120px 8%;
+    background:white;
+}
+
+.routineHeader{
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.routineHeader span{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold);
+}
+
+.routineHeader h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4.5rem;
+    margin-top:20px;
+}
+
+.routineHeader p{
+    max-width:600px;
+    margin:20px auto 0;
+    line-height:1.8;
+    color:#555;
+}
+
+.routineGrid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+}
+
+.routineCard{
+    background:var(--cream);
+    padding:40px;
+    border-radius:28px;
+    transition:0.3s;
+    position:relative;
+    overflow:hidden;
+}
+
+.routineCard:hover{
+    transform:translateY(-6px);
+}
+
+.routineCard h3{
+    font-family:"Cormorant Garamond", serif;
+    font-size:2.2rem;
+    margin-bottom:25px;
+}
+
+.routineCard ul{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.routineCard li{
+    font-size:1rem;
+    color:#555;
+    padding-left:20px;
+    position:relative;
+}
+
+.routineCard li::before{
+    content:"•";
+    position:absolute;
+    left:0;
+    color:var(--gold);
+}
+
+@media(max-width:992px){
+
+    .routineGrid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .routineHeader h2{
+        font-size:3rem;
+    }
+
+}

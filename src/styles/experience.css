@@ -1,0 +1,73 @@
+.experience{
+    width:100%;
+    padding:120px 8%;
+    background:var(--cream);
+    text-align:center;
+}
+
+.experienceHeader span{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    color:var(--gold);
+    text-transform:uppercase;
+}
+
+.experienceHeader h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4.5rem;
+    margin-top:20px;
+}
+
+.experienceHeader p{
+    max-width:600px;
+    margin:20px auto 0;
+    color:#555;
+    line-height:1.8;
+}
+
+/* SCENE */
+.scene{
+    width:300px;
+    height:300px;
+    margin:80px auto;
+    perspective:1000px;
+}
+
+/* BOX */
+.box3d{
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style:preserve-3d;
+    animation:rotate 12s infinite linear;
+}
+
+/* FACES */
+.face{
+    position:absolute;
+    width:300px;
+    height:300px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:"Cormorant Garamond", serif;
+    font-size:2rem;
+    font-weight:600;
+    color:#111;
+    background:linear-gradient(135deg, #f6f1eb, #e7d7c9);
+    border:1px solid rgba(0,0,0,0.05);
+}
+
+/* POSITIONING */
+.front  { transform: translateZ(150px); }
+.back   { transform: rotateY(180deg) translateZ(150px); }
+right   { transform: rotateY(90deg) translateZ(150px); }
+left    { transform: rotateY(-90deg) translateZ(150px); }
+.top    { transform: rotateX(90deg) translateZ(150px); }
+.bottom { transform: rotateX(-90deg) translateZ(150px); }
+
+/* ANIMATION */
+@keyframes rotate{
+    from { transform: rotateX(0deg) rotateY(0deg); }
+    to { transform: rotateX(360deg) rotateY(360deg); }
+}

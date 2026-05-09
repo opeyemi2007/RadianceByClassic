@@ -1,0 +1,71 @@
+.navbar{
+    width:100%;
+    padding:25px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1000;
+    background:rgba(246, 241, 235, 0.7);
+    backdrop-filter:blur(10px);
+}
+
+.logo{
+    font-family:"Cormorant Garamond", serif;
+    font-size:2rem;
+    font-weight:600;
+    color:var(--black);
+}
+
+.navLinks{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.navLinks a{
+    font-size:0.95rem;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.navLinks a:hover{
+    color:var(--gold);
+}
+
+.shopBtn{
+    padding:14px 28px;
+    background:var(--gold);
+    color:white;
+    border-radius:999px;
+    font-size:0.95rem;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.shopBtn:hover{
+    transform:translateY(-2px);
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        padding:20px 5%;
+    }
+
+    .navLinks{
+        display:none;
+    }
+
+    .logo{
+        font-size:1.6rem;
+    }
+
+    .shopBtn{
+        padding:12px 22px;
+        font-size:0.85rem;
+    }
+
+}

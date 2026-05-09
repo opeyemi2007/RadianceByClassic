@@ -1,0 +1,101 @@
+.qrSection{
+    width:100%;
+    padding:120px 8%;
+    background:var(--cream);
+    text-align:center;
+}
+
+.qrHeader span{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold);
+}
+
+.qrHeader h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4.5rem;
+    margin-top:20px;
+}
+
+.qrHeader p{
+    max-width:650px;
+    margin:20px auto 0;
+    color:#555;
+    line-height:1.8;
+}
+
+/* BOX */
+.qrBox{
+    margin-top:80px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+    background:white;
+    padding:60px;
+    border-radius:32px;
+    box-shadow:0 10px 40px rgba(0,0,0,0.05);
+}
+
+/* QR IMAGE */
+.qrVisual{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.qrVisual img{
+    width:260px;
+    height:260px;
+    object-fit:contain;
+    background:var(--cream);
+    padding:20px;
+    border-radius:20px;
+}
+
+/* TEXT */
+.qrInfo h3{
+    font-family:"Cormorant Garamond", serif;
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.qrInfo p{
+    color:#555;
+    line-height:1.9;
+    margin-bottom:30px;
+}
+
+/* BUTTON */
+.qrBtn{
+    display:inline-block;
+    padding:16px 32px;
+    background:var(--gold);
+    color:white;
+    border-radius:999px;
+    transition:0.3s;
+}
+
+.qrBtn:hover{
+    transform:translateY(-3px);
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+
+    .qrBox{
+        grid-template-columns:1fr;
+        text-align:center;
+        padding:40px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .qrHeader h2{
+        font-size:3rem;
+    }
+
+}

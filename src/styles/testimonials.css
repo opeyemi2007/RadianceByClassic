@@ -1,0 +1,74 @@
+.testimonials{
+    width:100%;
+    padding:120px 8%;
+    background:white;
+    text-align:center;
+}
+
+.testHeader span{
+    font-size:0.9rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold);
+}
+
+.testHeader h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4.5rem;
+    margin-top:20px;
+}
+
+.testHeader p{
+    max-width:600px;
+    margin:20px auto 0;
+    color:#555;
+    line-height:1.8;
+}
+
+.testGrid{
+    margin-top:80px;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:30px;
+}
+
+.testCard{
+    background:var(--cream);
+    padding:40px;
+    border-radius:28px;
+    transition:0.3s;
+    position:relative;
+}
+
+.testCard:hover{
+    transform:translateY(-6px);
+}
+
+.testCard p{
+    font-size:1rem;
+    line-height:1.9;
+    color:#444;
+    margin-bottom:30px;
+    font-style:italic;
+}
+
+.testCard h4{
+    color:var(--gold);
+    font-weight:500;
+}
+
+@media(max-width:992px){
+
+    .testGrid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .testHeader h2{
+        font-size:3rem;
+    }
+
+}

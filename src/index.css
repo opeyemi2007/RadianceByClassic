@@ -1,0 +1,47 @@
+:root{
+  --cream: #F6F1EB;
+  --nude: #E7D7C9;
+  --gold: #87393B;
+  --brown: #DE6268;
+  --white: #FFFFFF;
+  --black: #111111;
+}
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  background: var(--cream);
+  color: var(--black);
+  overflow-x:hidden;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+button{
+  border:none;
+  outline:none;
+  cursor:pointer;
+  font-family:inherit;
+}
+
+img{
+  width:100%;
+  display:block;
+}
