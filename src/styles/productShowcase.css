@@ -186,6 +186,17 @@
     grid-template-columns:1fr 1fr;
     gap:50px;
     position:relative;
+    overflow-y: auto;
+}
+
+.modalContent::-webkit-scrollbar{
+    width:5px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background: #C8A96B; /* gold */
+  border-radius: 10px;
+  border: 2px solid #F6F1EB;
 }
 
 .closeBtn{

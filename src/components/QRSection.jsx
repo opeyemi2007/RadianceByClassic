@@ -25,7 +25,7 @@ export default function QRSection() {
 
           {/* Replace with real QR image */}
           <img
-            src="/qr-code.png"
+            src="public/https_classicmakeupusa_com_.png"
             alt="QR Code"
           />
 
@@ -43,7 +43,7 @@ export default function QRSection() {
           </p>
 
           <a
-            href="https://your-main-classic-website.com"
+            href="https://classicmakeupusa.com/"
             target="_blank"
             rel="noreferrer"
             className="qrBtn"
