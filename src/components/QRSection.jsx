@@ -38,8 +38,7 @@ export default function QRSection() {
           </h3>
 
           <p>
-            Discover how each product works, explore your complete skincare
-            ritual, and learn how to achieve your best glow ever.
+            Discover how each product works, explore your complete skincare, and learn how to achieve your best glow ever.
           </p>
 
           <a

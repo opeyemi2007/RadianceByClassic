@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <h4>Explore</h4>
             <a href="/">Collection</a>
-            <a href="/">Ritual</a>
+            <a href="/">Radiance</a>
             <a href="/">Experience</a>
           </div>
 

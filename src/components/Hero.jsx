@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="heroText">
-        <span className="miniText">Luxury Skincare Ritual</span>
+        <span className="miniText">The Luxury Skincare Experience</span>
 
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="heroButtons">
           <button className="exploreBtn">Explore Collection</button>
 
-          <button className="watchBtn">Watch Ritual</button>
+          {/* <button className="watchBtn">Watch Ritual</button> */}
         </div>
       </div>
 

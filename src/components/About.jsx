@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="aboutTop">
-        <span>The Radiance Ritual</span>
+        <span>The Radiance Experience</span>
 
         <h2>
           Skincare Designed <br /> Beyond The Surface
@@ -14,7 +14,7 @@ const About = () => {
       <div className="aboutContent">
         <div className="aboutText">
           <p>
-            Radiance by Classic is a curated skincare ritual crafted to nourish,
+            Radiance by Classic is a curated skincare crafted to nourish,
             hydrate, and elevate your everyday self-care experience.
           </p>
 
@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <div className="aboutCard">
-            <h3>Everyday Ritual</h3>
+            <h3>Everyday Radiance</h3>
             <p>Simple routines that fit beautifully into your life.</p>
           </div>
         </div>

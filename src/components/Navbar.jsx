@@ -7,7 +7,7 @@ const Navbar = () => {
 
       <div className="navLinks">
         <a href="/">Collection</a>
-        <a href="/">Ritual</a>
+        <a href="/">Radiance</a>
         <a href="/">Experience</a>
       </div>
 

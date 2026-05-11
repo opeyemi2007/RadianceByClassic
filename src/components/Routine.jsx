@@ -6,14 +6,14 @@ export default function Routine() {
 
       <div className="routineHeader">
 
-        <span>The Radiance Ritual</span>
+        <span>The Radiance Kits</span>
 
         <h2>
           Your Daily Glow Routine
         </h2>
 
         <p>
-          A simple step-by-step skincare ritual designed to
+          A simple step-by-step skincare designed to
           cleanse, nourish, protect, and restore your glow.
         </p>
 

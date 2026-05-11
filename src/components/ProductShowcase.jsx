@@ -3,57 +3,96 @@ import { motion, AnimatePresence } from "framer-motion";
 import "../styles/productShowcase.css";
 
 const products = [
-  {
-    id: 1,
-    name: "Face Wash",
-    image: "/products/facewash.png",
-    color: "#F4E7D3",
-    benefit:
-      "Gently cleanses impurities while refreshing and brightening the skin.",
-    ingredients:
-      "Turmeric Extract, Aloe Vera, Vitamin E",
-    usage:
-      "Apply to damp skin, massage gently, then rinse thoroughly."
-  },
+{
+  id: 1,
+  name: "Face Wash",
+  image: "public/facewash.png",
+  color: "#90b3c4",
+  benefit:
+    "Gently cleanses impurities while refreshing and brightening the skin.",
+  ingredients:
+    "Turmeric Extract, Aloe Vera, Vitamin E",
+  usage:
+    "Apply to damp skin, massage gently, then rinse thoroughly."
+},
 
-  {
-    id: 2,
-    name: "Scrub",
-    image: "/products/scrub.png",
-    color: "#EFE1D7",
-    benefit:
-      "Exfoliates dead skin cells and reveals smoother, radiant skin.",
-    ingredients:
-      "Walnut Shell, Turmeric, Natural Oils",
-    usage:
-      "Use 2–3 times weekly on damp skin and rinse off."
-  },
+{
+  id: 2,
+  name: "Scrub",
+  image: "/scrub.png",
+  color: "#EFE1D7",
+  benefit:
+    "Exfoliates dead skin cells and reveals smoother, radiant skin.",
+  ingredients:
+    "Walnut Shell, Turmeric, Natural Oils",
+  usage:
+    "Use 2–3 times weekly on damp skin and rinse off."
+},
 
-  {
-    id: 3,
-    name: "Serum",
-    image: "/products/serum.png",
-    color: "#F7E9E1",
-    benefit:
-      "Hydrates deeply while improving glow and skin texture.",
-    ingredients:
-      "Hyaluronic Acid, Vitamin C, Niacinamide",
-    usage:
-      "Apply a few drops before moisturizer morning and night."
-  },
+{
+  id: 3,
+  name: "Serum",
+  image: "/serum.png",
+  color: "#c3593f",
+  benefit:
+    "Hydrates deeply while improving glow and skin texture.",
+  ingredients:
+    "Hyaluronic Acid, Vitamin C, Niacinamide",
+  usage:
+    "Apply a few drops before moisturizer morning and night."
+},
 
-  {
-    id: 4,
-    name: "Face Cream",
-    image: "/products/facecream.png",
-    color: "#F2E6DB",
-    benefit:
-      "Locks in moisture for soft, nourished, healthy-looking skin.",
-    ingredients:
-      "Shea Butter, Aloe Vera, Vitamin E",
-    usage:
-      "Massage evenly onto clean skin daily."
-  }
+{
+  id: 4,
+  name: "Face Cream",
+  image: "/facecream.png",
+  color: "#e6a557",
+  benefit:
+    "Locks in moisture for soft, nourished, healthy-looking skin.",
+  ingredients:
+    "Shea Butter, Aloe Vera, Vitamin E",
+  usage:
+    "Massage evenly onto clean skin daily."
+},
+
+{
+  id: 5,
+  name: "Armpit & Inner Thigh",
+  image: "/armpitandinnerthighs.png",
+  color: "#e1c2c7",
+  benefit:
+    "Targets uneven tone while nourishing delicate skin areas.",
+  ingredients:
+    "Niacinamide, Aloe Vera, Shea Butter",
+  usage:
+    "Apply gently to clean skin daily."
+},
+
+{
+  id: 6,
+  name: "Body Lotion",
+  image: "/bodyLotion.png",
+  color: "#F2E6DB",
+  benefit:
+    "Provides deep hydration for smooth glowing skin.",
+  ingredients:
+    "Cocoa Butter, Shea Butter, Vitamin E",
+  usage:
+    "Massage onto skin after bathing."
+},
+
+{
+  id: 7,
+  name: "Aloe Vera Gel",
+  image: "/aloeveragel.png",
+  color: "#dae2ca",
+  benefit:
+    "Soothes, cools, and refreshes irritated skin.",
+  ingredients:
+    "Pure Aloe Vera, Vitamin E",
+  usage:
+    "Apply directly onto skin whenever needed."
+}
 ];
 
 export default function ProductShowcase() {

@@ -6,18 +6,13 @@ export default function Experience() {
       <div className="experienceHeader">
         <span>Radiance by Classic</span>
 
-        <h2>The Unboxing Experience</h2>
-
-        <p>
-          Rotate the box to explore the luxury PR experience inside Radiance by
-          Classic.
-        </p>
+        <h2>The Box </h2>
       </div>
 
       <div className="scene">
         <div className="box3d">
           <div className="face front">
-            <span className="mini">Ritual Kit</span>
+            <span className="mini">Radince Kit</span>
 
             <h2>Radiance</h2>
 
@@ -28,7 +23,7 @@ export default function Experience() {
           <div className="face back">
             <span className="mini">Luminous Glow</span>
 
-            <h3>Skincare Ritual</h3>
+            <h3>Skincare Kits</h3>
 
             <p className="productsText">
               Face Wash • Serum • Sunscreen • Body Oil • Scrub • Face Cream
