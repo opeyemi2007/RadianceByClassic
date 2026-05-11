@@ -6,7 +6,7 @@ const products = [
 {
   id: 1,
   name: "Face Wash",
-  image: "public/facewash.png",
+  image: "/facewash.png",
   color: "#90b3c4",
   benefit:
     "Gently cleanses impurities while refreshing and brightening the skin.",
