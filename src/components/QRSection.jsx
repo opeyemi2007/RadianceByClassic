@@ -25,7 +25,7 @@ export default function QRSection() {
 
           {/* Replace with real QR image */}
           <img
-            src="public/https_classicmakeupusa_com_.png"
+            src="/https_classicmakeupusa_com_.png"
             alt="QR Code"
           />
 
